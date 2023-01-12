@@ -1,24 +1,7 @@
 # README
+Blog_API is created using command line rails c <br/>
+Record is added, updated and deleted using commands. <br/>
+The API  fetches the data in JSON format.<br/>
+Document is added with list of commands used throughout the process.<br/>
+Screenshots have been added.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
