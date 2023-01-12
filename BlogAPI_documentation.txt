@@ -1,0 +1,24 @@
+COMMANDS USED :
+
+TO VIEW:
+
+Blog.all
+
+
+TO ADD:
+
+Blog.create(title: "Kids & Play", content: "Kids Activities is a blog by Holly Harner based in United States which is a place where you can find inspiration and realistic ideas for more fun. Kids Activities Blog has kids crafts, kids activities and fun things to do with kids along with tips and tricks for parents", imagelink:"https://kidsactivitiesblog--o--com.follycdn.com/wp-content/uploads/2020/11/Kindergarten-Activities-for-Learning-and-Play-Kids-Activities-Blog-683x1024.jpg")
+                   
+
+TO UPDATE:
+p=Blog.find(4)
+
+p.title="Health, a greatest way of living";
+
+p.save
+
+TO DELETE:
+
+ p=Blog.find(5)
+ p.delete
+ p.save
